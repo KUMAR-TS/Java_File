@@ -35,10 +35,7 @@ public class Demo_dropDown {
 		WebElement UIhero = MH.getFirstSelectedOption();
 		System.out.println(UIhero.getText());
 		
-		
-		
-		
-		Thread.sleep(2000);
+				
 		driver.quit();
 		
 		
