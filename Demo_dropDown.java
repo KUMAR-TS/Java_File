@@ -34,6 +34,11 @@ public class Demo_dropDown {
 		MH.selectByIndex(2);
 		WebElement UIhero = MH.getFirstSelectedOption();
 		System.out.println(UIhero.getText());
+
+		driver.navigate().to("https://www.facebook.com/");
+		driver.findElement(By.id("email")).sendkeys("kumar@gmail.com");
+		driver.findElement(By.id("passContainer")).sendkeys("pasword@1122");
+		driver.findElement(By.name("login")).click;
 		
 				
 		driver.quit();
